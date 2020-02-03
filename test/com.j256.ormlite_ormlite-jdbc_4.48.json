@@ -1,0 +1,27 @@
+{
+  "java": {
+    "repositories": [
+      {
+        "id": "maven-central",
+        "url": "http://192.168.10.44:8081/nexus/content/repositories/public/cc/ewell/",
+        "credentials": {
+          "username": "user",
+          "password": "pass"
+        }
+      }
+    ],
+    "dependencies": [
+      {
+        "groupId": "nurse",
+        "artifactId": "cdss-api",
+        "version": "1.0.0-SNAPSHOT"
+      },
+      {
+        "groupId": "nurse",
+        "artifactId": "enr-api",
+        "version": "1.0.0-SNAPSHOT"
+      }
+    ],
+    "localRepository": "file"
+  }
+}
